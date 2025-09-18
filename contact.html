@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="fa">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تماس — فوتبال‌پلاس</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="brand">
+      <div class="logo">ف</div>
+      <div>
+        <div style="font-size:20px;font-weight:700">فوتبال‌پلاس</div>
+        <div style="font-size:13px;opacity:.9">آخرین خبرها، نتایج و آنالیز لیگ ایران</div>
+      </div>
+    </div>
+    <nav class="nav" style="margin-top:12px">
+      <a class="nav-link" href="index.html">خانه</a>
+      <a class="nav-link" href="news.html">خبرها</a>
+      <a class="nav-link" href="teams.html">تیم‌ها</a>
+      <a class="nav-link" href="fixtures.html">تقویم</a>
+      <a class="nav-link" href="about.html">درباره ما</a>
+      <a class="nav-link" href="contact.html">تماس</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <div class="card">
+    <h2>تماس با ما</h2>
+    <p>ایمیل: info@footballplus.local (برای استفاده آفلاین می‌توانید این را تغییر دهید)</p>
+    <form onsubmit="alert('در نسخه آفلاین فرم ارسال نمی‌شود — از ایمیل استفاده کنید');return false;">
+      <div style="margin-bottom:8px"><label>نام</label><br><input style="width:100%;padding:8px" required></div>
+      <div style="margin-bottom:8px"><label>ایمیل</label><br><input style="width:100%;padding:8px" required></div>
+      <div style="margin-bottom:8px"><label>پیام</label><br><textarea style="width:100%;padding:8px" rows="6" required></textarea></div>
+      <button type="submit" style="background:var(--accent);color:#fff;padding:8px 12px;border:none;border-radius:6px">ارسال</button>
+    </form>
+  </div>
+</main>
+<script src="assets/script.js"></script>
+</body>
+</html>
